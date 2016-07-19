@@ -1,0 +1,225 @@
+@charset="UTF-8";
+*{margin:0; padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+
+.wrapper{width:1100px; 
+			height:100%; 
+			margin:0 auto;
+		}
+
+.clearfix{
+	display:block;
+	clear:both;
+	height:0;		
+}
+
+/*헤더*/
+#header{position:relative; width:100%; height:140px; overflow:hidden;}
+.nav1{position:relative; width:100%; }
+.logo{position:absolute;}
+.logo img{position:absolute; top:0; margin-top:25px; width:100px; height:50px;}
+
+#header.offtop{position:fixed; top:0; height:140px; background-color:#fff; z-index:999;}
+
+.n1_list1{position:absolute; left:180px;}
+.n1_list1 > ul > li{float:left; padding:38px 25px 38px 25px;}
+
+.n1_list1 a{color:black; font-size:24px; line-height:20px; font-weight:bold;}
+
+.icon{position:absolute; top:80px; left:-820px;}
+.icon li{float:left; height:14px; margin:10px 0 13px 10px;}
+
+
+.sub_list1{position:absolute; top:100px; left:-35px; height:40px; display:none;}
+.sub_list1 li{float:left; height:40px; margin:13px 30px 13px 0; font-size:14px; line-height:14px; color:#ddd;}
+.sub_list1 li a{font-size:14px; line-height:14px; color:#ddd;}
+.sub_list1 li a:hover{color:orange;}
+
+.sub_list2{position:absolute; top:100px; left:-45px; height:40px; width:900px;}
+.sub_list2 li{float:left; height:40px; margin:13px 30px 13px 0; font-size:14px; line-height:14px; color:#ddd;}
+.sub_list2 li a{font-size:14px; line-height:14px; color:#ddd;}
+.sub_list2 li a:hover{color:orange;}
+
+.sub_list3{position:absolute; top:100px; left:110px; height:40px; display:none;}
+.sub_list3 li{float:left; height:40px; margin:13px 30px 13px 0; font-size:14px; line-height:14px; color:#ddd;}
+.sub_list3 li a{font-size:14px; line-height:14px; color:#ddd;}
+.sub_list3 li a:hover{color:orange;}
+
+.sub_list4{position:absolute; top:100px; left:470px; height:40px; width:200px; display:none;}
+.sub_list4 li{float:left; height:40px; margin:13px 30px 13px 0; font-size:14px; line-height:14px; color:#ddd;}
+.sub_list4 li a{font-size:14px; line-height:14px; color:#ddd;}
+.sub_list4 li a:hover{color:orange;}
+
+.n2_bg{position:absolute; width:100%; height:40px; top:100px; background-color:black;}
+
+
+.n1_list2{position:absolute; right:0;}
+.n1_list2 li{float:left; margin-top:30px; text-align:center; margin-left:12px;}
+.n1_list2 p{font-size:10px;}
+
+.n1_line{margin:0 auto; background:black; width:38px; height:2px;}
+.n1_list2_box1{margin-bottom:8px;}
+.n1_list2_box2{margin-top:8px;}
+
+.n1_list2 li:nth-child(5){margin-right:30px;}
+.n1_list2 .op{opacity:0.5;}
+.n1_list2 .op:hover{opacity:1;}
+
+
+
+/*어사이드*/
+aside{position:relative;}
+.side{position:relative; width:160px; float:left;}
+
+.coord{position:absolute; top:20px; left: 740px; width:500px; z-index:999;}
+.coord div{float:left; margin-right:5px; height:14px;}
+.coord div:nth-child(9){margin-right:20px;}
+.coord p{color:gray;}
+
+.a_list{position:relative; margin-top:150px;}
+.a_list li{position:relative;}
+
+
+.a_list li:nth-child(1) a{font-size:20px; line-height:20px; color:black; font-weight:bold;}
+.a_list li:nth-child(1){margin-bottom:20px;}
+
+.a_list li:nth-child(2) a{font-size:16px; line-height:16px; color:black;}
+.a_list li:nth-child(2){margin-bottom:10px;}
+
+.a_list li:nth-child(3) a{font-size:16px; line-height:16px; color:black;}
+.a_list li:nth-child(3){margin-bottom:30px;}
+
+.a_list li:nth-child(4) a{font-size:20px; line-height:20px; color:black; font-weight:bold;}
+.a_list li:nth-child(4){margin-bottom:20px;}
+
+.a_list li:nth-child(5) a{font-size:16px; line-height:16px; color:black;}
+.a_list li:nth-child(5){margin-bottom:40px;}
+
+.a_list li:nth-child(6) a{font-size:20px; line-height:20px; color:black; font-weight:bold;}
+.a_list li:nth-child(6){margin-bottom:20px;}
+
+.a_list li:nth-child(7) a{font-size:16px; line-height:16px; color:black;}
+.a_list li:nth-child(7){margin-bottom:10px;}
+
+.a_list li:nth-child(8) a{font-size:16px; line-height:16px; color:black;}
+.a_list li a:hover{color:orange;}
+
+/*컨텐츠*/
+section{position:relative;}
+.content1{width:940px; float:right;}
+.conbox1{position:relative; margin-top:150px;}
+.c_name1{position:relative; margin-bottom:30px;}
+.c_name1 h2{font-size:50px; float:left;}
+.c_name1 img{position:relative; top:-15px;}
+.c_name1 span{text-decoration:underline;}
+
+.cp1{position:relative;}
+.cp1 p{font-size:24px; margin-bottom:70px;}
+.cp1 span{font-weight:bold;}
+
+.c_name2{position:relative; margin-bottom:40px;}
+.c_name2 h3{font-size:28px; line-height:38px;}
+.c_name2 span{text-decoration:overline;}
+
+.cp2{position:relative; margin-bottom:60px;}
+.cp2 p{font-size:16px; line-height:22px;}
+
+.c_line1{width:455px; height:1px; background-color:black; margin-bottom:18px;}
+
+.cp3{position:relative; margin-bottom:18px;}
+.cp3 p{font-size:20px; line-height:30px;}
+.cp3 span{font-weight:bold;}
+
+.c_line2{width:455px; height:1px; background-color:black; margin-bottom:70px;}
+
+.conbox2{position:relative; float:right; margin-top:150px; padding-left:317px;}
+
+
+.c_name3{position:relative; margin-bottom:30px;}
+.c_name3 h3{font-size:20px; line-height:20px;}
+.c_name3 span{text-decoration:overline;}
+
+.cp4{position:relative; margin-bottom:100px;}
+.cp4 p{font-size:14px; color:gray;}
+
+.c_name4{position:relative; margin-bottom:30px;}
+.c_name4 h3{font-size:20px; line-height:20px;}
+.c_name4 span{text-decoration:overline;}
+
+.cpbox1{position:relative; width:230px; float:left; margin-top:95px;}
+.icon1{position:relative;}
+.icon1 img{width:50px; height:50px; float:left; margin-right:20px; margin-bottom:10px;}
+.c_name4-1{position:relative;}
+.c_name4-1 h3{font-size:20px; margin-top:15px;}
+.c_line3{position:relative; width:230px; height:1px; background-color:black; top:25px;}
+
+.cp5{position:relative; margin-top:40px;}
+.cp5 p{font-size:14px; line-height:20px;}
+
+.icon2{position:relative; float:left; margin:150px 20px 0 50px;}
+.icon2 img{width:17px; height:30px;}
+
+.cpbox2{position:relative; width:230px; float:left; margin-bottom:100px;}
+
+.cpbox2_1{position:relative; width:230px; height:120px;}
+.nember1{width:100px; height:100px; background-color:gray; border-radius:100px; float:left;}
+.nember1 p{font-size:15px; text-align:center; line-height:20px; font-weight:bold;}
+.nember1 p:nth-child(1){padding-top: 22px;}
+.c_n_line1{width:20px; height:1px; background-color:black; margin:5px auto;}
+
+.cp5_list1{position:absolute; left:110px; width:120px; top:20px;}
+.cp5_list1 li{font-size:12px; line-height:20px;}
+
+
+.cpbox2_2{position:relative; width:230px; height:120px;}
+.nember2{width:100px; height:100px; background-color:gray; border-radius:100px; float:left;}
+.nember2 p{font-size:15px; text-align:center; line-height:20px; font-weight:bold;}
+.nember2 p:nth-child(1){padding-top: 22px;}
+.c_n_line2{width:20px; height:1px; background-color:black; margin:5px auto;}
+
+.cp5_list2{position:absolute; left:110px; width:120px; top:10px;}
+.cp5_list2 li{font-size:12px; line-height:20px; }
+
+
+.cpbox2_3{position:relative; width:230px; height:100px;}
+.nember3{width:100px; height:100px; background-color:gray; border-radius:100px; float:left;}
+.nember3 p{font-size:15px; text-align:center; line-height:20px; font-weight:bold;}
+.nember3 p:nth-child(1){padding-top: 22px;}
+.c_n_line3{width:20px; height:1px; background-color:black; margin:5px auto;}
+
+.cp5_list3{position:absolute; left:110px; width:120px; top:10px;}
+.cp5_list3 li{font-size:12px; line-height:20px; }
+
+.icon3{position:relative; float:left; margin:150px 20px 0 50px;}
+.icon3 img{width:32px; height:32px;}
+
+
+
+.cpbox3{position:relative; width:230px; float:left; margin-top:95px;}
+.icon4{position:relative;}
+.icon4 img{width:50px; height:50px; float:left; margin-right:20px; margin-bottom:10px;}
+.c_name4-2{position:relative;}
+.c_name4-2 h3{font-size:20px; margin-top:15px;}
+
+.c_line4{position:relative; width:230px; height:1px; background-color:black; top:25px;}
+
+.cp6{position:relative; margin-top:40px;}
+.cp6 p{font-size:14px; line-height:20px;}
+
+
+.conbox2{position:absolute; top:0; left:765px;}
+
+
+
+
+
+/*푸터*/
+#footer{position:relative; width:100%; background-color: #ddd;overflow:hidden;}
+.foot{position:relative;}
+.f_inner1 li{position:relative; float:right; top:0; right:0; margin:30px 0 30px 30px; height:25px;}
+.f_inner1 {border-bottom:1px solid black;}
+
+.f_inner2{margin:50px 0;}
+.f_logo{float:left; opacity:0.3;}
+.f_inner2 p{font-size:12px; line-height:16px; margin-left:230px; margin-bottom:20px;}

@@ -1,0 +1,35 @@
+$(function(){
+
+	$('.bx').bxSlider({
+	
+		mode:'horizontal',
+			speed:2000,
+			auto: true,
+			autoStart: true,
+			wrapperClass:'arb'
+
+	});
+
+
+
+
+
+
+
+  $('.bx2').bxSlider({
+    slideWidth: 1100,
+    minSlides: 4,
+    maxSlides: 4,
+    moveSlides: 1,
+  
+
+	mode:'horizontal',
+	speed:1000,
+	auto: true,
+	autoStart: true,
+	wrapperClass:'aabf'
+  });
+
+
+
+});
